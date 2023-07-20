@@ -1,0 +1,344 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {}
+
+.header {}
+
+.main {}
+
+.tab-links {
+    width: auto;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-top: 30px;
+    padding-right: 50px !important;
+}
+
+.linked-blok {
+    margin-left: 30px;
+    text-decoration: none;
+    color: black;
+    font-family: "Heebo";
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.linked-blok:hover {
+    border-bottom: 3px solid gray;
+}
+
+.add-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: auto;
+    height: 600px;
+}
+
+.add-text {}
+
+.text-bigger {
+    font-family: "Heebo";
+    color: black;
+    font-weight: 700;
+    font-size: 44px;
+    width: 506px;
+    margin-bottom: 25px;
+}
+
+.text-mini {
+    font-family: "Heebo";
+    color: black;
+    font-weight: 400;
+    width: 497px;
+    margin-bottom: 20px;
+}
+
+.button-red {
+    text-decoration: none;
+}
+
+.button-text {
+    text-decoration: none;
+    color: white;
+    width: 208px;
+    height: 47px;
+    top: 477px;
+    left: 148px;
+    border-radius: 2px;
+    background-color: red;
+    font-family: "Heebo";
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.add-foto {}
+
+.foto-header {
+    width: 249px;
+    height: 249px;
+}
+
+.main-section-one {
+    width: auto;
+    height: 396px;
+    background: rgba(237, 247, 250, 1);
+}
+
+.bg-box-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.texts-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 850px;
+    padding-right: 20px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+.text-mini-one {
+    font-family: Heebo;
+    font-size: 22px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.text-mini-two {
+    font-family: Heebo;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: right;
+    color: #00A8CC;
+    text-decoration: none;
+}
+
+.text-mini-two:hover {
+    border-bottom: 2px solid red;
+}
+
+.cards-bigger {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cards-flexer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.universal-card {
+    width: 418px;
+    height: 295px;
+    background-color: white;
+    border-radius: 10px;
+    margin-right: 20px;
+    padding: 20px;
+}
+
+.cards-textt {
+    font-family: Heebo;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.texts-mini-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 300px;
+    height: 45px;
+    margin-bottom: 15px;
+}
+
+.line-mini {
+    width: 2px;
+    height: 25px;
+    background-color: gray;
+}
+
+.mini-text {
+    font-family: Heebo;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.mini-texted {
+    font-family: Heebo;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    width: 368px;
+}
+
+
+/* ============------------------main-section-two----------============= */
+
+.main-section-two {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sector-mini-secury {
+    padding-top: 30px;
+}
+
+.title-box-f {
+    width: 800px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 30px;
+}
+
+.title-text {
+    font-family: Heebo;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.work-cards-bigger {}
+
+.work-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.work-card-blok-one {
+    margin-right: 15px;
+}
+
+.work-card-img {
+    width: 246px;
+    height: 180px;
+}
+
+.work-card-blok-two {}
+
+.work-card-title {
+    font-family: Heebo;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.work-card-mini-text-blok {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.year-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Heebo";
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+    background-color: black;
+    width: 55px;
+    height: 25px;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+
+.info-work {
+    font-family: Heebo;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: grey;
+}
+
+.work-cards-mini-text {
+    font-family: Heebo;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    width: 594px;
+}
+
+.work-card-lne {
+    width: 850px;
+    height: 2px;
+    background-color: gray;
+    margin-bottom: 30px;
+}
+
+
+/* ===============----------------footer----------------------========== */
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.foot-section {
+    width: auto;
+    height: 282px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.links-bigger {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.linkkk-web {}
+
+.web-iconss {}
+
+.footer-text {
+    font-family: Heebo;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0px;
+    text-align: center;
+}
